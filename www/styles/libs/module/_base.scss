@@ -1,0 +1,27 @@
+// Base settings
+// --------------------------------------------------
+//
+
+$linkColor       : #5a5b5c;
+$linkColorActive : #5a5b5c;
+$baseColor       : #666;
+$brandColor      : #f16331;
+$baseFont        : '', arial, 'sans-serif';
+$defaultFontSize : 16px; /* 100% */
+
+/* Susy Settings */
+$total-columns  : 4;
+$column-width   : 4em;
+$gutter-width   : 1em;
+$grid-padding   : $gutter-width;
+
+$break1 : 9;
+$break2 : 13;
+
+body {
+  color: $baseColor;
+  font-family: $baseFont;
+  font-size: 100%;
+  line-height: 1.625;
+  -webkit-font-smoothing: antialiased;
+}

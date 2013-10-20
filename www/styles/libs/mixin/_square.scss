@@ -1,0 +1,7 @@
+// Create square box
+// -------------------------
+@mixin size( $height, $width ) {
+  width: $width;
+  height: $height;
+}
+

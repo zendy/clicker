@@ -1,0 +1,13 @@
+// Links style
+// --------------------------------------------------
+// a
+
+a {
+  color: $linkColor;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: $linkColorActive;
+    text-decoration: none;
+  }
+}

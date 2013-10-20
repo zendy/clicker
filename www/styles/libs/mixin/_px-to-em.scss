@@ -1,0 +1,7 @@
+// Convert px to em
+// --------------------------------------------------
+// $defaultFontSize: normally it'll be 16px
+// $sizeInPx: eg 12px
+@function px-to-em( $sizeInPx ){
+  @return #{ $sizeInPx / $defaultFontSize }em;
+}
